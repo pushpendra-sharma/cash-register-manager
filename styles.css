@@ -17,3 +17,122 @@ body {
   margin: 0;
   width: 100%;
 }
+
+
+h1 {
+  margin: 2rem 0rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  max-width: 140px;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  font-size: large;
+  display: block;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: var(--off-white);
+}
+
+label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 260px;
+}
+
+.error-msg {
+  margin: 0.1rem 0 1rem 0;
+  padding: 0;
+  color: red;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.container {
+  padding: 0rem 1rem;
+  text-align: center;
+}
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.description {
+  font-size: larger;
+  margin: 1rem;
+}
+/* Table */
+.change-table {
+  width:70%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.change-table caption {
+  margin: 1rem 0;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+  min-width: 35px;
+  margin: 0;
+}
+
+footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem 0;
+  text-align: center;
+  color: var(--off-white);
+  margin: 3rem 0 0 0;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+  margin: 0.2rem;
+}
+
+img {
+  width: 40px;
+  padding: 0.2rem;
+}
